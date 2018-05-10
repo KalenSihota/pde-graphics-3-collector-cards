@@ -2,7 +2,7 @@
  * Collector card
  * by Kalen
  * 
- * Code shows how to embed images into sketches
+ * Code shows how to embed images into drawings
  * 
  */
    PImage Bad;
@@ -16,9 +16,11 @@ void setup() {
 }
 
 void draw() {
- 
+ fill(221,142,1);
+  rect(0,262,205,75);
+  fill(255);
   image(Bad,0,0);
   textFont(myFont);
   textAlign(CENTER, CENTER);
-  text("Floatie arms", 125,290);
+  text("Floatie arms", 101,290);
 }
