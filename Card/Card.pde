@@ -30,7 +30,7 @@ void draw() {
   fill(221,142,1);
   rect(0,262,205,75);
   rect(0,550,150,50);
-  rect(0,0,0,0);
+  rect(20,350,325,150);
   //boxing the image
   fill(255);
   image(Bad,0,0);
